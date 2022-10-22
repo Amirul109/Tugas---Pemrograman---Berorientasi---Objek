@@ -1,0 +1,24 @@
+#Program javascript - Tugas 1
+
+
+// Membuat Class  by Amirul
+class Data 
+{
+// Atribut class
+constructor (nama,alamat,umur,pendidikan) {
+this.nama = nama;
+this.alamat = alamat;
+this.umur = umur;
+this.pendidikan = pendidikan;
+}
+}
+var arrayPsn = new Array();
+var Antor = new Data ("Antor","Karawang","23","Universitas separsebangsa");
+arrayPsn.push(Antor);
+var Riko = new Data ("Riko","Cikarang","24","Universitas Terbuka");
+arrayPsn.push(Riko);
+
+console.log(arrayPsn);
+
+
+
